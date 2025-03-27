@@ -2256,3 +2256,35 @@ strong {
         height: 200px;
     }
 }
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-heading h2 {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.section-heading h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #f33f3f;
+}
+
+.left-content h4,
+.story-content h4,
+.usp-content h4,
+.industries-content h4,
+.sustainability-content h4 {
+    text-align: center;
+    margin-bottom: 25px;
+}
